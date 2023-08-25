@@ -1,1 +1,7 @@
 # SQLAlchemy-challenge
+
+This project is part of the SQLAlchemy challenge for analyzing and exploring climate data in Honolulu, Hawaii using Python, SQLAlchemy, and creating a Flask API for querying the data. This challenge is based on a long holiday vacation to the dreamy island of Honolulu that is surrounded by water with rain frequenting the company of visitors. To explore and analyze the data an SQLlite database was created using data from the Hawaii document provided. Analyzing the precipitation on the island on a monthly basis was found to be the most useful technique in analyzing the data to determine the best time of the year to travel. The dataset provided information that needed to be cleaned to pick out the most useful data to explore the finding. 
+
+During careful observation and graphing executed in the documentation, it was determined that the best time of the year to take the vacation would be during the month of January. This was determined due to the month having less perception rates that the other months as well as the temperature being one of the lowest in all of the months but not being too cold. 
+
+An API was created with different routes to serve the data. The routes include retrieving precipitation data, station data, temperature observations, and summary statistics for temperature based on specified start and end dates.
